@@ -1219,7 +1219,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.373
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2522,8 +2522,33 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 89721559588543970, guid: a5151965adbacdc449ddbe0284cfc198,
         type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 89721559588543970, guid: a5151965adbacdc449ddbe0284cfc198,
+        type: 3}
       propertyPath: field of view
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 89721559588543970, guid: a5151965adbacdc449ddbe0284cfc198,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 89721559588543970, guid: a5151965adbacdc449ddbe0284cfc198,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 89721559588543970, guid: a5151965adbacdc449ddbe0284cfc198,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 89721559588543970, guid: a5151965adbacdc449ddbe0284cfc198,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1348665741403452641, guid: a5151965adbacdc449ddbe0284cfc198,
         type: 3}
@@ -5635,12 +5660,12 @@ PrefabInstance:
     - target: {fileID: 6444369224338279365, guid: 9aa7a504fe239434cbe0393b298ff4c0,
         type: 3}
       propertyPath: m_Volume
-      value: 0.099
+      value: 0.068
       objectReference: {fileID: 0}
     - target: {fileID: 6456442416525042287, guid: 9aa7a504fe239434cbe0393b298ff4c0,
         type: 3}
       propertyPath: m_Volume
-      value: 0.095
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 6923039105814636390, guid: 9aa7a504fe239434cbe0393b298ff4c0,
         type: 3}
@@ -6255,7 +6280,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 84fdedf1409dcd640b296c9708ebbe13, type: 3}
   - {fileID: 8300000, guid: 1e75d0372896ee349bd82fbee9e2b45c, type: 3}
   - {fileID: 8300000, guid: 09957ffbe65385845b26bd7a3dbd8f36, type: 3}
-  loopAll: 1
+  loopAll: 0
   dontDestroyOnLoad: 1
   audioSource: {fileID: 2064899428}
 --- !u!82 &2064899428
@@ -6271,7 +6296,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.123
+  m_Volume: 0.079
   m_Pitch: 1
   Loop: 0
   Mute: 0
